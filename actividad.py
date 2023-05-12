@@ -48,4 +48,3 @@ class AnalizadorLogs:
 log_analyzer = AnalizadorLogs("trafico_web.log")
 statistics_dict = log_analyzer.analizar_logs()
 print(statistics_dict)
-
